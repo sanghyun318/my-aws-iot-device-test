@@ -32,7 +32,7 @@ import com.amazonaws.services.iot.client.sample.sampleUtil.SampleUtil.KeyStorePa
  */
 public class PublishSubscribeSample {
 
-    private static final String TestTopic = "iot/collect/data";
+    private static final String TestTopic = "light_bulb/corrent-luminous/data";
     private static final AWSIotQos TestTopicQos = AWSIotQos.QOS0;
 
     private static AWSIotMqttClient awsIotClient;
